@@ -11,9 +11,11 @@
 <div class="page">
 	<Nav />
 
-	<section class="intro">
+	<section class="hero">
 		<h1 class="page-title">brand philosophy</h1>
+	</section>
 
+	<section class="intro">
 		<div class="intro-text">
 			<p>
 				Unfolding You is grounded in the belief that every individual and organisation carries a
@@ -62,9 +64,12 @@
 		padding: 0 10%;
 	}
 
-	/* Intro Section */
-	.intro {
-		padding: 40px 0 80px;
+	/* Hero Section */
+	.hero {
+		max-height: 520px;
+		height: 520px;
+		display: flex;
+		align-items: center;
 	}
 
 	.page-title {
@@ -73,7 +78,11 @@
 		font-weight: 400;
 		color: #550000;
 		line-height: 1.1;
-		margin-bottom: 60px;
+	}
+
+	/* Intro Section */
+	.intro {
+		padding: 0 0 80px;
 	}
 
 	.intro-text {

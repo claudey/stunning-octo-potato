@@ -15,9 +15,11 @@
 <div class="page">
 	<Nav />
 
-	<section class="content">
+	<section class="hero">
 		<h1 class="page-title">contact us</h1>
+	</section>
 
+	<section class="content">
 		<div class="body-text">
 			<p>
 				Across all consulting work, Unfolding You honours depth and meaning. Everything is shaped
@@ -85,9 +87,11 @@
 		padding: 0 10%;
 	}
 
-	.content {
-		flex: 1;
-		padding: 40px 0 80px;
+	.hero {
+		max-height: 520px;
+		height: 520px;
+		display: flex;
+		align-items: center;
 	}
 
 	.page-title {
@@ -96,7 +100,11 @@
 		font-weight: 400;
 		color: #550000;
 		line-height: 1.1;
-		margin-bottom: 80px;
+	}
+
+	.content {
+		flex: 1;
+		padding: 0 0 80px;
 	}
 
 	.body-text {

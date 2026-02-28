@@ -11,9 +11,11 @@
 <div class="page">
 	<Nav />
 
-	<section class="intro">
+	<section class="hero">
 		<h1 class="page-title">services</h1>
+	</section>
 
+	<section class="intro">
 		<div class="intro-text">
 			<p>
 				Our services are for moments of transition, refinement and growth. When something is
@@ -94,9 +96,12 @@
 		padding: 0 10%;
 	}
 
-	/* Intro */
-	.intro {
-		padding: 40px 0 60px;
+	/* Hero Section */
+	.hero {
+		max-height: 520px;
+		height: 520px;
+		display: flex;
+		align-items: center;
 	}
 
 	.page-title {
@@ -105,7 +110,11 @@
 		font-weight: 400;
 		color: #550000;
 		line-height: 1.1;
-		margin-bottom: 60px;
+	}
+
+	/* Intro */
+	.intro {
+		padding: 0 0 60px;
 	}
 
 	.intro-text {
