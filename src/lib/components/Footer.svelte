@@ -5,6 +5,7 @@
 		<a href="/about" class="nav-link">ABOUT</a>
 		<a href="/brand" class="nav-link">BRAND</a>
 		<a href="/services" class="nav-link">SERVICES</a>
+		<a href="/testimonials" class="nav-link">TESTIMONIALS</a>
 		<a href="/contact" class="nav-link">CONTACT</a>
 	</div>
 </footer>
