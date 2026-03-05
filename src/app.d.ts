@@ -7,9 +7,11 @@ declare global {
 		// interface PageData {}
 		// interface PageState {}
 		interface Platform {
-			env: {
-				BREVO_API_KEY: string;
-			};
+			env: { BREVO_API_KEY: string };
+			env: Env;
+			ctx: ExecutionContext;
+			caches: CacheStorage;
+			cf?: IncomingRequestCfProperties
 		}
 	}
 }
