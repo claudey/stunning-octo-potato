@@ -29,25 +29,23 @@
 			<p>
 				Unfolding is a process of integration - where past experience becomes wisdom, identity
 				becomes coherent, and expression becomes aligned. When the whole story is honoured, people
-				lead with greater confidence, depth and ease.
+				lead with greater confidence.
 			</p>
 		</div>
 	</section>
 
 	<section class="unfold">
-		<h2 class="unfold-title">/ un • fold /</h2>
+		<h2 class="unfold-title">/ un.fold /</h2>
 
 		<div class="unfold-text">
 			<p>
-				To unfold is not to become someone new. It is to reveal what is already present, gradually,
-				honestly, and in the right time.
+				To unfold is not to become someone new. It is to reveal what is already here, honestly, in
+				its own time.
 			</p>
 			<p>
-				Unfolding acknowledges that growth is not linear, polished, or performative. It happens
-				through experience: success and failure, ambition and doubt, momentum and pause. Nothing is
-				wasted. Everything belongs.
+				Unfolding honours the truth that growth is not linear or a performance. It happens through
+				lived experience. Everything belongs, nothing is wasted.
 			</p>
-			<p>This is where the whole story lives as a practice.</p>
 		</div>
 	</section>
 

@@ -21,7 +21,7 @@
 	<section class="body-text">
 		<p>
 			Whether you're beginning a new chapter or expanding an established one,
-			<strong><em>Unfolding You</em></strong> supports you to move forward with clarity, depth and
+			<strong><em>Unfolding You</em></strong> supports you to move forward with clarity and
 			alignment through bespoke coaching, mentoring and consultation.
 		</p>
 		<p>

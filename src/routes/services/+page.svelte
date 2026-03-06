@@ -18,10 +18,9 @@
 	<section class="intro">
 		<div class="intro-text">
 			<p>
-				Our services are for moments of transition, refinement and growth. When something is
-				shifting, or asking to be shaped with more care. Whether you're navigating change, expanding
-				what you've already built, or simply wanting space to think more clearly, our work together
-				is designed to meet you where you are.
+				Our services are for moments of transition, refinement and growth. Whether you're navigating
+				change, expanding what you've already built, or simply wanting space to think more clearly,
+				our work together is designed to meet you where you are.
 			</p>
 		</div>
 	</section>
@@ -31,7 +30,7 @@
 			<h2 class="service-title">coaching</h2>
 			<p class="service-subtitle">Inner clarity that leads to aligned action</p>
 			<p>
-				A structured yet soulful process that supports individuals to move from insight into
+				A structured process that supports individuals to move from insight into
 				embodiment. It blends emotional intelligence, self-inquiry and practical momentum, always
 				rooted in the client's whole story. This is coaching for people who want results without
 				sacrificing depth.
@@ -53,14 +52,11 @@
 			<h2 class="service-title">leadership & organisational consulting</h2>
 			<p class="service-subtitle">Helping leaders bring out the best in people</p>
 			<p>
-				Unfolding You partners with leaders and organisations who understand that sustainable success
-				is built through people - their clarity, confidence and sense of purpose. This work supports
-				leaders to lead with presence, emotional intelligence and discernment, creating cultures
-				where individuals feel trusted, engaged and inspired to contribute at their highest level.
-			</p>
-			<p>
-				The focus is not just improved outcomes, but leadership that is grounded, human and quietly
-				effective.
+				We partner with leaders and organisations who understand that sustainable success is built
+				through people - their clarity and sense of purpose. This work supports leaders to lead with
+				presence and emotional intelligence, creating cultures where individuals feel trusted, engaged
+				and inspired to contribute at their highest level. The focus is not just improved outcomes,
+				but leadership that is grounded and quietly effective.
 			</p>
 		</div>
 
@@ -68,17 +64,12 @@
 			<h2 class="service-title">personal brand & narrative consulting</h2>
 			<p class="service-subtitle">Crafting presence, clarity and expression</p>
 			<p>
-				Unfolding You works with individuals whose work, influence or ideas are ready to be expressed
-				with greater coherence, intention and refinement.
+				For individuals whose work or ideas are ready to be expressed with greater intention. Drawing
+				on a background in creative producing and storytelling, this is a collaborative process. It
+				clarifies what matters and how that is communicated to the world.
 			</p>
 			<p>
-				Drawing on a background in creative producing and storytelling, this is a considered,
-				collaborative process. It's less about self-promotion and more about refinement. It clarifies
-				what matters and how that is communicated to the world.
-			</p>
-			<p>
-				The result is a sense of ease and authority, a presence that feels coherent, elegant and
-				unmistakably one's own.
+				The result is a sense of ease and authority a presence that feels unmistakably one's own.
 			</p>
 		</div>
 	</section>

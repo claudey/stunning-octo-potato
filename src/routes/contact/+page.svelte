@@ -22,10 +22,9 @@
 	<section class="content">
 		<div class="body-text">
 			<p>
-				Across all consulting work, Unfolding You honours depth and meaning. Everything is shaped
-				with care allowing what is essential to emerge naturally, and what is inessential to fall
-				away. If something here has resonated, we'd love to hear from you. We can guide you through
-				our bespoke services. All enquiries are treated with warmth, discretion and confidentiality.
+				We shape each engagement with care, so what matters can emerge naturally, and what no longer
+				serves can fall away. If something here has resonated, we would love to hear from you. All
+				enquiries are met with warmth and held in confidence.
 			</p>
 			<a href="mailto:info@unfoldingyou.com" class="email-link">info@unfoldingyou.com</a>
 		</div>

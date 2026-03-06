@@ -19,14 +19,12 @@
 		<div class="intro-text">
 			<p>
 				Unfolding You lives at the intersection of inner development and outer expression. We work
-				with people who are capable, sensitive, ambitious, and often carrying a lot. People who sense
-				that the next chapter matters. People who are ready for momentum, but not at the cost of
-				themselves.
+				with capable, ambitious people who often carry a lot: founders, leaders, and creatives in
+				transition. They sense the next chapter matters, but not at the cost of themselves.
 			</p>
 			<p>
-				Unfolding You is both soulful and rigorous. We honour the human story and we translate it
-				into practical outcomes, clearer priorities, stronger communication, aligned execution, and a
-				story others can stand behind, internally and externally.
+				We honour your story and translate it into practical outcomes, clearer priorities, and
+				aligned action.
 			</p>
 		</div>
 	</section>
@@ -40,19 +38,18 @@
 				</div>
 
 				<p>
-					People have always fascinated me. Who we are beneath the roles we play. The stories we
-					carry. The parts of us quietly asking to be seen.
+					People have always fascinated me. Who we are beneath the roles we play, the stories we
+					carry, and the parts of us that remain unspoken.
 				</p>
 				<p>
 					My work is led by warmth, deep listening, and intuition. I create calm, focused spaces
-					where people can reconnect with what they already know inside themselves, then turn that
+					where people reconnect with what they already know inside themselves, then turn that
 					truth into clear decisions and grounded next steps.
 				</p>
 				<p>
-					My background spans nearly two decades across creative and corporate environments, shaping
+					My background spans nearly two decades across radio, film, and television, shaping
 					narratives, guiding talent and teams, and helping complex ideas become clear, compelling,
-					and deliverable. As a storyteller and a producer, I support individuals, leaders, and teams
-					to find direction that feels honest, and sustainable.
+					and deliverable.
 				</p>
 				<p>
 					Unfolding You is an invitation to connect with your own story, and let it unfold your way.
