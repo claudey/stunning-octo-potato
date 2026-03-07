@@ -131,7 +131,7 @@
   .services-list {
     display: flex;
     flex-direction: column;
-    gap: 80px;
+    gap: 60px;
     padding-bottom: 80px;
   }
 
@@ -147,7 +147,7 @@
     font-size: clamp(32px, 4vw, 64px);
     font-weight: 400;
     color: #800020;
-    line-height: 1.25;
+    line-height: 1.1;
   }
 
   .service-subtitle {
