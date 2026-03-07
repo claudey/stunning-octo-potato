@@ -67,8 +67,9 @@
 
       <div class="founder-image">
         <img
-          src="/founder.png"
+          src="/founder-unfolding-you.webp"
           alt="Rienkje Attoh — Founder of Unfolding You"
+          class="founder-image-img"
         />
       </div>
     </div>
@@ -150,7 +151,7 @@
   }
 
   .founder-label {
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-size: 28px;
     font-weight: 800;
     color: #faf9eb;
@@ -162,12 +163,12 @@
     font-family: "DM Serif Display", serif;
     font-size: clamp(36px, 3.75vw, 60px);
     font-weight: 400;
-    color: #59e1c8;
+    color: #faf9eb;
     line-height: 1.2;
   }
 
   .founder-text p {
-    font-family: "Plus Jakarta Sans", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-size: clamp(16px, 1.375vw, 22px);
     line-height: 1.6;
     color: #fff;
@@ -186,6 +187,12 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  .founder-image-img {
+    filter: grayscale(100%); /* Converts the image to black and white */
+    /* For broadr compatibility with older browsers, the -webkit prefix can be included, though modern browser support is excellent */
+    -webkit-filter: grayscale(100%);
   }
 
   @media (max-width: 1024px) {

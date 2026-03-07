@@ -131,7 +131,7 @@
   .services-list {
     display: flex;
     flex-direction: column;
-    gap: 60px;
+    gap: 48px;
     padding-bottom: 80px;
   }
 
