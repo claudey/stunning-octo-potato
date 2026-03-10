@@ -107,7 +107,7 @@
 
 	.quote {
 		font-family: 'Manrope', sans-serif;
-		font-size: 22px;
+		font-size: 20px;
 		font-weight: 400;
 		line-height: 32px;
 		color: #000;
@@ -116,7 +116,7 @@
 
 	.name {
 		font-family: 'Manrope', sans-serif;
-		font-size: 22px;
+		font-size: 20px;
 		font-weight: 900;
 		line-height: 32px;
 		color: #800020;
