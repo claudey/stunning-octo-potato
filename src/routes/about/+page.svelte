@@ -45,6 +45,12 @@
         </div>
 
         <p>
+          I am an International Coaching Federation (ICF) accredited life and
+          business coach and a film and television producer, bringing together
+          professional coaching and the power of storytelling to support
+          meaningful personal and professional transformation.
+        </p>
+        <p>
           People have always fascinated me. Who we are beneath the roles we
           play, the stories we carry, and the parts of us that remain unspoken.
         </p>
