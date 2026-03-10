@@ -80,7 +80,7 @@
 	}
 
 	.body-text p {
-		font-family: 'Inter', sans-serif;
+		font-family: 'Manrope', sans-serif;
 		font-size: clamp(18px, 1.75vw, 28px);
 		line-height: 1.5;
 		color: #000;

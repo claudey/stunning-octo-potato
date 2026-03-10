@@ -18,7 +18,7 @@
 	}
 
 	:global(body) {
-		font-family: 'Inter', sans-serif;
+		font-family: 'Manrope', sans-serif;
 		background-color: #faf9eb;
 		color: #000;
 		-webkit-font-smoothing: antialiased;

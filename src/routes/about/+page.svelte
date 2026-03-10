@@ -117,7 +117,7 @@
   }
 
   .intro-text p {
-    font-family: "Inter", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-size: clamp(16px, 1.5vw, 24px);
     line-height: 1.5;
     color: #000;

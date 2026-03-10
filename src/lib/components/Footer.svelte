@@ -21,7 +21,7 @@
   }
 
   .footer-email {
-    font-family: "Inter", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-size: 20px;
     color: #000;
     text-decoration: none;
@@ -37,7 +37,7 @@
   }
 
   .nav-link {
-    font-family: "Inter", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-size: 20px;
     font-weight: 400;
     color: #000;
