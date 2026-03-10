@@ -71,11 +71,18 @@
         </p>
       </div>
 
-      <div class="founder-image">
+      <div class="founder-visual">
+        <div class="founder-image">
+          <img
+            src="/founder-unfolding-you.webp"
+            alt="Rienkje Attoh — Founder of Unfolding You"
+            class="founder-image-img"
+          />
+        </div>
         <img
-          src="/founder-unfolding-you.webp"
-          alt="Rienkje Attoh — Founder of Unfolding You"
-          class="founder-image-img"
+          src="/icf-acc-badge-rienkje-attoh.png"
+          alt="ICF Associate Certified Coach badge"
+          class="icf-badge"
         />
       </div>
     </div>
@@ -136,13 +143,20 @@
     color: #fff;
   }
 
-  .founder-image {
+  .founder-visual {
     flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-top: 40px;
+  }
+
+  .founder-image {
     width: 435px;
     height: 435px;
     border-radius: 50%;
     overflow: hidden;
-    margin-top: 40px;
   }
 
   .founder-image img {
@@ -156,16 +170,24 @@
     -webkit-filter: grayscale(100%);
   }
 
+  .icf-badge {
+    max-width: 150px;
+    height: auto;
+  }
+
   @media (max-width: 1024px) {
     .founder-content {
       flex-direction: column;
     }
 
+    .founder-visual {
+      align-self: center;
+      margin-top: 0;
+    }
+
     .founder-image {
       width: 300px;
       height: 300px;
-      align-self: center;
-      margin-top: 0;
     }
   }
 
@@ -182,6 +204,10 @@
     .founder-image {
       width: 220px;
       height: 220px;
+    }
+
+    .icf-badge {
+      max-width: 120px;
     }
 
     .founder-text p {
