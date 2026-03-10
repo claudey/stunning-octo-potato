@@ -103,7 +103,7 @@
   .founder {
     background-color: #550000;
     margin: 0 -10%;
-    padding: 100px 10%;
+    padding: 56px 10%;
   }
 
   .founder-content {
