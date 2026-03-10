@@ -79,11 +79,18 @@
             class="founder-image-img"
           />
         </div>
-        <img
-          src="/icf-acc-badge-rienkje-attoh.png"
-          alt="ICF Associate Certified Coach badge"
-          class="icf-badge"
-        />
+        <div class="icf-badges">
+          <img
+            src="/icf-acc-badge-rienkje-attoh.png"
+            alt="ICF Associate Certified Coach badge"
+            class="icf-badge"
+          />
+          <img
+            src="/icf-member-badge-rienkje-attoh.png"
+            alt="ICF Member badge"
+            class="icf-badge"
+          />
+        </div>
       </div>
     </div>
   </section>
@@ -168,6 +175,12 @@
   .founder-image-img {
     filter: grayscale(100%);
     -webkit-filter: grayscale(100%);
+  }
+
+  .icf-badges {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
   }
 
   .icf-badge {
