@@ -1,14 +1,30 @@
+<script lang="ts">
+  import { page } from "$app/state";
+
+  const links = [
+    { href: "/", label: "home" },
+    { href: "/about", label: "about" },
+    { href: "/brand", label: "brand" },
+    { href: "/services", label: "services" },
+    { href: "/testimonials", label: "testimonials" },
+    { href: "/contact", label: "contact" },
+  ];
+</script>
+
 <footer class="footer">
   <a href="mailto:info@unfoldingyou.com" class="footer-email"
     >info@unfoldingyou.com</a
   >
   <div class="footer-nav">
-    <a href="/" class="nav-link">home</a>
-    <a href="/about" class="nav-link">about</a>
-    <a href="/brand" class="nav-link">brand</a>
-    <a href="/services" class="nav-link">services</a>
-    <a href="/testimonials" class="nav-link">testimonials</a>
-    <a href="/contact" class="nav-link">contact</a>
+    {#each links as link}
+      <a
+        href={link.href}
+        class="nav-link"
+        class:active={page.url.pathname === link.href}
+      >
+        {link.label}
+      </a>
+    {/each}
   </div>
 </footer>
 
@@ -47,6 +63,11 @@
 
   .nav-link:hover {
     color: #800020;
+  }
+
+  .nav-link.active {
+    color: #800020;
+    font-weight: 900;
   }
 
   @media (max-width: 768px) {

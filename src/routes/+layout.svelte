@@ -1,7 +1,19 @@
 <script lang="ts">
 	import favicon from '$lib/assets/favicon.svg';
+	import { onNavigate } from '$app/navigation';
+	import '../app.css';
 
 	let { children } = $props();
+
+	onNavigate((navigation) => {
+		if (!document.startViewTransition) return;
+		return new Promise((resolve) => {
+			document.startViewTransition(async () => {
+				resolve();
+				await navigation.complete;
+			});
+		});
+	});
 </script>
 
 <svelte:head>
@@ -9,19 +21,3 @@
 </svelte:head>
 
 {@render children()}
-
-<style>
-	:global(*) {
-		margin: 0;
-		padding: 0;
-		box-sizing: border-box;
-	}
-
-	:global(body) {
-		font-family: 'Manrope', sans-serif;
-		background-color: #faf9eb;
-		color: #000;
-		-webkit-font-smoothing: antialiased;
-		-moz-osx-font-smoothing: grayscale;
-	}
-</style>

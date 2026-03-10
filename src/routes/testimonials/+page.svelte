@@ -86,31 +86,6 @@
 </div>
 
 <style>
-	.page {
-		max-width: 1600px;
-		margin: 0 auto;
-		min-height: 100vh;
-		display: flex;
-		flex-direction: column;
-		padding: 0 10%;
-	}
-
-	/* Hero Section */
-	.hero {
-		max-height: 520px;
-		height: 520px;
-		display: flex;
-		align-items: center;
-	}
-
-	.page-title {
-		font-family: 'DM Serif Display', serif;
-		font-size: clamp(60px, 7.5vw, 120px);
-		font-weight: 400;
-		color: #550000;
-		line-height: 1.1;
-	}
-
 	/* Testimonials Grid */
 	.testimonials {
 		padding-bottom: 80px;
@@ -152,14 +127,9 @@
 		.masonry {
 			columns: 1;
 		}
-
 	}
 
 	@media (max-width: 768px) {
-		.page {
-			padding: 0 24px;
-		}
-
 		.quote,
 		.name {
 			font-size: 18px;

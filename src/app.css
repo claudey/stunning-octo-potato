@@ -1,0 +1,113 @@
+/* Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Manrope', sans-serif;
+  background-color: #faf9eb;
+  color: #000;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Shared page layout */
+.page {
+  max-width: 1600px;
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0 10%;
+}
+
+/* Hero section */
+.hero {
+  /* max-height: 520px; */
+  height: 25em;
+  display: flex;
+  align-items: center;
+}
+
+.page-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(60px, 7.5vw, 120px);
+  font-weight: 400;
+  color: #550000;
+  line-height: 1.1;
+}
+
+/* Intro section */
+.intro {
+  padding: 0 0 80px;
+}
+
+.intro-text {
+  max-width: 840px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.intro-text p {
+  font-family: 'Manrope', sans-serif;
+  font-size: clamp(16px, 1.5vw, 24px);
+  line-height: 1.5;
+  color: #000;
+}
+
+/* Body text */
+.body-text {
+  max-width: 840px;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.body-text p {
+  font-family: 'Manrope', sans-serif;
+  font-size: clamp(16px, 1.5vw, 24px);
+  line-height: 1.5;
+  color: #000;
+}
+
+/* Page transitions */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation-duration: 250ms;
+  animation-timing-function: ease-in-out;
+}
+
+::view-transition-old(root) {
+  animation-name: fade-out;
+}
+
+::view-transition-new(root) {
+  animation-name: fade-in;
+  mix-blend-mode: normal;
+}
+
+@keyframes fade-out {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
+
+@keyframes fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@media (max-width: 768px) {
+  .page {
+    padding: 0 24px;
+  }
+
+  .intro-text p,
+  .body-text p {
+    font-size: 16px;
+  }
+}

@@ -85,47 +85,9 @@
 </div>
 
 <style>
-  .page {
-    max-width: 1600px;
-    margin: 0 auto;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    padding: 0 10%;
-  }
-
-  .hero {
-    max-height: 520px;
-    height: 520px;
-    display: flex;
-    align-items: center;
-  }
-
-  .page-title {
-    font-family: "DM Serif Display", serif;
-    font-size: clamp(60px, 7.5vw, 120px);
-    font-weight: 400;
-    color: #550000;
-    line-height: 1.1;
-  }
-
   .content {
     flex: 1;
     padding: 0 0 80px;
-  }
-
-  .body-text {
-    max-width: 840px;
-    display: flex;
-    flex-direction: column;
-    gap: 32px;
-  }
-
-  .body-text p {
-    font-family: "Manrope", sans-serif;
-    font-size: clamp(16px, 1.5vw, 24px);
-    line-height: 1.5;
-    color: #000;
   }
 
   .email-link {
@@ -234,11 +196,6 @@
   }
 
   @media (max-width: 768px) {
-    .page {
-      padding: 0 24px;
-    }
-
-    .body-text p,
     .email-link {
       font-size: 16px;
     }

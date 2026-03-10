@@ -35,19 +35,10 @@
 </div>
 
 <style>
-	.page {
-		max-width: 1600px;
-		margin: 0 auto;
-		min-height: 100vh;
-		display: flex;
-		flex-direction: column;
-		padding: 0 10%;
-	}
-
 	.hero {
 		flex: 1;
-		display: flex;
-		align-items: center;
+		height: auto;
+		max-height: none;
 		padding: 60px 0;
 	}
 
@@ -73,24 +64,14 @@
 
 	.body-text {
 		max-width: 928px;
-		display: flex;
-		flex-direction: column;
-		gap: 32px;
 		padding-bottom: 80px;
 	}
 
 	.body-text p {
-		font-family: 'Manrope', sans-serif;
 		font-size: clamp(18px, 1.75vw, 28px);
-		line-height: 1.5;
-		color: #000;
 	}
 
 	@media (max-width: 768px) {
-		.page {
-			padding: 0 24px;
-		}
-
 		.body-text p {
 			font-size: 18px;
 		}
