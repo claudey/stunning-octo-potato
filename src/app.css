@@ -28,7 +28,7 @@ body {
 /* Hero section */
 .hero {
   /* max-height: 520px; */
-  height: 25em;
+  height: 15em;
   display: flex;
   align-items: center;
 }
