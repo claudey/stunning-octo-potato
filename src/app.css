@@ -106,6 +106,10 @@ body {
     padding: 0 24px;
   }
 
+  .hero {
+    height: 15em;
+  }
+
   .intro-text p,
   .body-text p {
     font-size: 16px;
