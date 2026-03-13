@@ -90,6 +90,10 @@
   }
 
   @media (max-width: 768px) {
+    .hero {
+      padding-bottom: 4em;
+    }
+
     .unfold {
       margin: 0 -24px;
       padding: 40px 24px 60px;
